@@ -14,6 +14,17 @@ local BOSSES_OTHER = "DH_Other"
 local bosses = false
 local others = false
 
+local Dungeontype2 ={
+["Fungal Grotto II"] = "",
+["Spindleclutch II"] = "",
+["Banished Cells II"] = "",
+["Darkshade Caverns II"] = "",
+["Elden Hollow II"] = "",
+["Wayrest Sewers II"] = "",
+["City of Ash II"] = "",
+["Crypt of Hearts II"] = "",
+}
+
 
 --Default Variables
 local savedVariables
@@ -49,7 +60,9 @@ end
 local function MapCallback_bosses()
 	
 	local typeof = BOSSES
-	if LMP:IsEnabled(typeof) then
+	local ZoneName = ZO_CachedStrFormat("<<C:1>>", GetZoneNameByIndex(GetCurrentMapZoneIndex()))
+
+	if LMP:IsEnabled(typeof) and not Dungeontype2[ZoneName] then
 		local zone, subzone = LMP:GetZoneAndSubzone()
 			--if subzone == "ui_map" then
 				if subzone:find("ui_map") then
@@ -70,27 +83,23 @@ end
 local function MapCallback_others()
 	
 	local typeof = BOSSES_OTHER
-	if LMP:IsEnabled(typeof) then
-		local zone, subzone = LMP:GetZoneAndSubzone()
-			--if subzone == "ui_map" then
-			if subzone:find("ui_map") then
-				local mapTexture = GetMapTileTexture():lower()
-				mapTexture = mapTexture:gsub("ui_map_", "")
-				zone, subzone = select(3,mapTexture:find("maps/([%w%-]+)/([%w%-]+_[%w%-]+)"))
+	local ZoneName = ZO_CachedStrFormat("<<C:1>>", GetZoneNameByIndex(GetCurrentMapZoneIndex()))
+			if LMP:IsEnabled(typeof) and Dungeontype2[ZoneName] then
+					local zone, subzone = LMP:GetZoneAndSubzone()
+					--if subzone == "ui_map" then
+					if subzone:find("ui_map") then
+						local mapTexture = GetMapTileTexture():lower()
+						mapTexture = mapTexture:gsub("ui_map_", "")
+						zone, subzone = select(3,mapTexture:find("maps/([%w%-]+)/([%w%-]+_[%w%-]+)"))
+					end
+					local pins = DH_GetLocalData(zone, subzone, typeof)
+					if pins ~= nil then
+						for _, pinData in ipairs(pins) do
+							LMP:CreatePin(typeof, pinData, pinData[1], pinData[2])
+						end
+					end
 			end
-      		local pins = DH_GetLocalData(zone, subzone, typeof)
-      		if pins ~= nil then
-      			for _, pinData in ipairs(pins) do
-      				LMP:CreatePin(typeof, pinData, pinData[1], pinData[2])
-      			end
-      		end
-	end
-	
 end
-
-
-
-
 
 -- Load Addon
 local function OnLoad(_, name)

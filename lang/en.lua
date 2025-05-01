@@ -217,26 +217,42 @@ Last Boss]], [[Hard Mode:
 },
 ---- Lair of Maarselok ----
 		["maarsoutsidemap003_base"] = {
-			{[[Azureblight Lurcher(Maarselok's first phase)]], [[
+			{[[Azureblight Lurcher]], [[Mechanics:
+			-Stack on tank, kill stranglers while also DPSing the boss/other adds, and don’t stand in bad stuff. 
+			-Kill this boss three times.
 ]]},
 },
 		["maarsmap05_base"] = {
-			{[[Maarselok]], [[
+			{[[Maarselok]], [[Mechanics:
+			-Once you prevent at least three hoarvors in a row from reaching Selene and DPS all the stranglers down, Maarselok will drop down.
 ]]},
-			{[[Selene]], [[
+			{[[Selene]], [[Mechanics:
+			-Keep the Hoarvors away from Selene as she conjures an army of green spiders to drag Maarselok down to you. Kill all stranglers AND spriggans.
+			-You don’t have to DPS Hoarvors – just shielding up and walking into their space will cause them to stop and slowly explode.
+			-Tank should keep an eye out in case a hoarvor gets missed in the chaos. If one does reach Selene, the count resets, so you can end up with infinite waves of adds and no boss.
+			
 ]]},
 },
 		["maarsmap06_base"] = {
 			{[[Maarselok
-			Last Boss]], [[
+			Last Boss]], [[Mechanics:
+			-DPS and healer stand opposite tank. 
+			-Avoid the explosions, AOEs, head butts, conals, wings, sweeping fire blasts, and charges.
+			-Cleanse on the green pads if you turn blue.
 ]]},
 },
 		["maarscave1_base"] = {
-			{[[Selene's Claws & Fangs]], [[
+			{[[Selene's Claws & Fangs]], [[Mechanics:
+			-Kill adds, stand behind the big things, get interrupts ASAP on the channelled attack that Selene does (usually right after she does a poison conal and runs away).
+			-Block or dodge popcorn AOEs.
 ]]},
 },
 		["maarsmap04_base"] = {
-			{[[Azureblight Cancroid]], [[
+			{[[Azureblight Cancroid]], [[Mechanics:
+			-During combat, the Cancroid is invulnerable until you bring down the Azureblight Infestors it spawns.
+			-When the Infestor dies, Selene will cleanse the seed within the Infestor.
+			-One group member needs to use the synergy on the seed and bring that seed to the Cancroid in order to bring down its shield. From there, it can be attacked.
+			-Standing in the deep blue aura surrounding the Cancroid will slow and harm you.
 ]]},
 },
 
