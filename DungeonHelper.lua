@@ -63,8 +63,6 @@ local function MapCallback_bosses()
       				LMP:CreatePin(typeof, pinData, pinData[1], pinData[2])
       			end
       		end
-			CHAT_SYSTEM:AddMessage(zone)
-			CHAT_SYSTEM:AddMessage(subzone)
 	end		
 end
 
