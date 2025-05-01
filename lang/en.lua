@@ -227,7 +227,8 @@ Last Boss]], [[Hard Mode:
 ]]},
 },
 		["maarsmap06_base"] = {
-			{[[Maarselok]], [[
+			{[[Maarselok
+			Last Boss]], [[
 ]]},
 },
 		["maarscave1_base"] = {
@@ -432,7 +433,8 @@ Last Boss]], [[Hard Mode:
 ]]},
 },
 ["cradleofshadowsint_005_base"] = {
-			{[[Velidreth Last Boss]], [[Hard Mode:
+			{[[Velidreth
+			Last Boss]], [[Hard Mode:
 			- initiated by burning the webs on the Altar of Adoration.
 ]]},
 },
@@ -607,10 +609,8 @@ Last Boss]], [[Hard Mode:
 		{[[QUlfnor]], [[
 ]]},
 
-			{[[Orryn the Black]], [[
-]]},
-
-			{[[Thurvokun Last Boss]], [[
+			{[[Orryn the Black & Thurvokun
+			Last Boss]], [[
 ]]},
 },
 
@@ -782,7 +782,7 @@ Last Boss]], [[Hard Mode:
 							
 							
 							
-	["Craglorn"] = {
+	["craglorn"] = {
 	---- Falkreath Hold ----
 ["falkreathsdemise_base"] = {
 			{[[Morrigh Bullblood]], [[
@@ -797,7 +797,8 @@ Last Boss]], [[Hard Mode:
 ]]},
 },
 ["falkreathsdemise_b_base"] = {
-			{[[Domihaus the Bloody-Horned Last Boss]], [[Hard Mode:
+			{[[Domihaus the Bloody-Horned
+			Last Boss]], [[Hard Mode:
 			- When you get to the final boss fight against Domihaus, you have the option to activate a Warhorn to the right of the door after you enter the Jarl's Hall.
 ]]},
 },
@@ -813,7 +814,7 @@ Last Boss]], [[Hard Mode:
 ["bloodrootext1_base"] = {
 			{[[Mathgamain]], [[
 ]]},
-			{[[Caillaoife Last Boss]], [[
+			{[[Caillaoife]], [[
 ]]},
 },						
 ["bloodrootint1_base"] = {
@@ -824,7 +825,6 @@ Last Boss]], [[Hard Mode:
 },
 	
 },
-						---- Fang Lair ----
 							
 							
 							---- Scalecaller Peak ----

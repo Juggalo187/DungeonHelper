@@ -303,9 +303,8 @@ local DHData = {
 			{0.217000, 0.512000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 1)}, --Lizabet Charnis
 			{0.550000, 0.166000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 2)}, --Cadaverous Menagerie
 			{0.698000, 0.470000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 3)}, --Caluurion
-			{0.549000, 0.455000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 4)}, --QUlfnor	
-			{0.803000, 0.799000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 5)}, --Orryn the Black
-			{0.812000, 0.798000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 6)}, --Thurvokun
+			{0.549000, 0.455000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 4)}, --QUlfnor
+			{0.812000, 0.798000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 5)}, --Thurvokun
 		},
 	},	-- End Bangkorai
 
