@@ -215,7 +215,29 @@ Last Boss]], [[Hard Mode:
 
 ]]},
 },
-
+---- Lair of Maarselok ----
+		["maarsoutsidemap003_base"] = {
+			{[[Azureblight Lurcher(Maarselok's first phase)]], [[
+]]},
+},
+		["maarsmap05_base"] = {
+			{[[Maarselok]], [[
+]]},
+			{[[Selene]], [[
+]]},
+},
+		["maarsmap06_base"] = {
+			{[[Maarselok]], [[
+]]},
+},
+		["maarscave1_base"] = {
+			{[[Selene's Claws & Fangs]], [[
+]]},
+},
+		["maarsmap04_base"] = {
+			{[[Azureblight Cancroid]], [[
+]]},
+},
 
 },	-- End Grahtwood
 
@@ -252,6 +274,29 @@ Last Boss]], [[Hard Mode:
 
 ]]},
 },
+---- Scalecaller Peak ----
+		["scalecaller001_base"] = {
+			{[[Orzun the Foul-Smelling]], [[
+]]},
+
+			{[[Rinaerus the Rancid]], [[
+]]},
+
+			{[[Doylemish Ironheart]], [[
+]]},
+},
+		["scalecaller002_base"] = {
+			{[[Matriarch Aldis]], [[
+]]},
+},
+		["scalecaller004_base"] = {
+			{[[Plague Concocter Mortieu]], [[
+]]},
+
+			{[[Zaan the Scalecaller]], [[
+]]},
+},
+
 
 
 },	-- End Stormhaven
@@ -353,6 +398,42 @@ Last Boss]], [[Hard Mode:
 			{[[Sellstrix the Lamia Queen
 Last Boss]], [[Hard Mode:
 -Scroll of Glorius Battle.
+]]},
+},
+---- Ruins of Mazzatun ----
+		["mazzatunext_base"] = {
+			{[[Zatzu]], [[
+]]},
+					
+			{[[Mighty Chudan]], [[
+]]},
+
+			{[[Xal-Nur the Slaver]], [[
+]]},
+
+			{[[Tree-Minder Na-Kesh
+Last Boss]], [[Hard Mode:
+-destroy Tree-Minder Na-Kesh's Notes on the Amber Plasm.
+]]},
+},
+---- Cradle of Shadows ----
+["cradleofshadowsint_002_base"] = {
+			{[[Khephidaen]], [[
+]]},
+					
+			{[[Sithera]], [[
+]]},
+},
+["cradleofshadowsint_003_base"] = {
+			{[[Votary of Velidreth]], [[
+]]},
+					
+			{[[Dranos Velador]], [[
+]]},
+},
+["cradleofshadowsint_005_base"] = {
+			{[[Velidreth Last Boss]], [[Hard Mode:
+			- initiated by burning the webs on the Altar of Adoration.
 ]]},
 },
 
@@ -513,6 +594,26 @@ Last Boss]], [[Hard Mode:
 -Scroll of Glorius Battle.
 ]]},
 },
+---- Fang Lair ----
+		["fanglairext_base"] = {
+			{[[Lizabet Charnis]], [[
+]]},
+
+			{[[Cadaverous Menagerie]], [[
+]]},
+
+			{[[Caluurion]], [[
+]]},
+		{[[QUlfnor]], [[
+]]},
+
+			{[[Orryn the Black]], [[
+]]},
+
+			{[[Thurvokun Last Boss]], [[
+]]},
+},
+
 
 
 },	-- End Bangkorai
@@ -677,19 +778,53 @@ Last Boss]], [[Hard Mode:
 	
 	
 							
-							---- Ruins of Mazzatun ----
 							
 							
-							---- Cradle of Shadows ----
 							
 							
-							---- Falkreath Hold ----
-							
-							
-							---- Bloodroot Forge ----
-							
-							
-							---- Fang Lair ----
+	["Craglorn"] = {
+	---- Falkreath Hold ----
+["falkreathsdemise_base"] = {
+			{[[Morrigh Bullblood]], [[
+]]},
+			{[[Siege Mammoth]], [[
+]]},
+			{[[Cernunnon]], [[
+]]},
+},	
+["falkreathsdemise_i_base"] = {
+			{[[Deathlord Bjarfrud Skjoralmor]], [[
+]]},
+},
+["falkreathsdemise_b_base"] = {
+			{[[Domihaus the Bloody-Horned Last Boss]], [[Hard Mode:
+			- When you get to the final boss fight against Domihaus, you have the option to activate a Warhorn to the right of the door after you enter the Jarl's Hall.
+]]},
+},
+	
+---- Bloodroot Forge ----	
+	
+["bloodrootint2_base"] = {
+			{[[Earthgore Amalgam]], [[
+]]},
+			{[[Gherig Bullblood]], [[
+]]},
+},
+["bloodrootext1_base"] = {
+			{[[Mathgamain]], [[
+]]},
+			{[[Caillaoife Last Boss]], [[
+]]},
+},						
+["bloodrootint1_base"] = {
+			{[[Stoneheart]], [[
+]]},
+			{[[Galchobhar]], [[
+]]},
+},
+	
+},
+						---- Fang Lair ----
 							
 							
 							---- Scalecaller Peak ----

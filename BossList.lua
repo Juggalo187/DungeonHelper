@@ -76,7 +76,23 @@ local DHData = {
 			{0.708641, 0.301234, DH_GetLocalizedData("grahtwood", "eldenhollow_base", 5)}, --Leafseether
 			{0.451955, 0.305864, DH_GetLocalizedData("grahtwood", "eldenhollow_base", 6)}, --Canonreeve Oraneth
 		},
-		
+							---- Lair of Maarselok ----
+		["maarsoutsidemap003_base"] = {
+			{0.589000, 0.694000, DH_GetLocalizedData("grahtwood", "maarsoutsidemap003_base", 1)}, --Azureblight Lurcher(Maarselok's first phase)
+		},
+		["maarsmap05_base"] = {
+			{0.844000, 0.169000, DH_GetLocalizedData("grahtwood", "maarsmap05_base", 1)}, --Maarselok
+			{0.752000, 0.259000, DH_GetLocalizedData("grahtwood", "maarsmap05_base", 2)}, --Selene
+		},
+		["maarsmap06_base"] = {
+			{0.860000, 0.705000, DH_GetLocalizedData("grahtwood", "maarsmap06_base", 1)}, --Maarselok
+		},
+		["maarscave1_base"] = {
+			{0.799000, 0.224000, DH_GetLocalizedData("grahtwood", "maarscave1_base", 1)}, --Selene's Claws & Fangs
+		},
+		["maarsmap04_base"] = {
+			{0.179000, 0.792000, DH_GetLocalizedData("grahtwood", "maarsmap04_base", 1)}, --Azureblight Cancroid
+		},
 	},	-- End Grahtwood
 	
 		-- Start Stormhaven
@@ -90,6 +106,20 @@ local DHData = {
 			{0.241000, 0.160000, DH_GetLocalizedData("stormhaven", "wayrestsewers_base", 4)}, --Rat Whisperer
 			{0.656790, 0.245679, DH_GetLocalizedData("stormhaven", "wayrestsewers_base", 5)}, --Valaine Pallingare
 			{0.718000, 0.687000, DH_GetLocalizedData("stormhaven", "wayrestsewers_base", 6)}, --Allene Pallingare
+		},
+							
+							---- Scalecaller Peak ----
+		["scalecaller001_base"] = {
+			{0.365000, 0.170000, DH_GetLocalizedData("stormhaven", "scalecaller001_base", 1)}, --Orzun the Foul-Smelling 
+			{0.367000, 0.196000, DH_GetLocalizedData("stormhaven", "scalecaller001_base", 2)}, --Rinaerus the Rancid
+			{0.681000, 0.448000, DH_GetLocalizedData("stormhaven", "scalecaller001_base", 3)}, --Doylemish Ironheart
+		},
+		["scalecaller002_base"] = {
+			{0.303000, 0.217000, DH_GetLocalizedData("stormhaven", "scalecaller002_base", 1)}, --Matriarch Aldis
+		},
+		["scalecaller004_base"] = {
+			{0.273000, 0.745000, DH_GetLocalizedData("stormhaven", "scalecaller004_base", 1)}, --Plague Concocter Mortieu
+			{0.771000, 0.546000, DH_GetLocalizedData("stormhaven", "scalecaller004_base", 2)}, --Zaan the Scalecaller
 		},
 		
 	},	-- End Stormhaven
@@ -136,6 +166,25 @@ local DHData = {
 			{0.490123, 0.693827, DH_GetLocalizedData("shadowfen", "arxcorinium_base", 4)}, --Matron Ixniaa
 			{0.322222, 0.523456, DH_GetLocalizedData("shadowfen", "arxcorinium_base", 5)}, --Ancient Lurcher
 			{0.104938, 0.333333, DH_GetLocalizedData("shadowfen", "arxcorinium_base", 6)}, --Sellstrix the Lamia Queen
+		},
+							---- Ruins of Mazzatun ----
+		["mazzatunext_base"] = {
+			{0.383000, 0.729000, DH_GetLocalizedData("shadowfen", "mazzatunext_base", 1)}, --Zatzu
+			{0.652000, 0.761000, DH_GetLocalizedData("shadowfen", "mazzatunext_base", 2)}, --Mighty Chudan
+			{0.423000, 0.335000, DH_GetLocalizedData("shadowfen", "mazzatunext_base", 3)}, --Xal-Nur the Slaver
+			{0.499000, 0.507000, DH_GetLocalizedData("shadowfen", "mazzatunext_base", 4)}, --Tree-Minder Na-Kesh
+		},
+							---- Cradle of Shadows ----
+		["cradleofshadowsint_002_base"] = {
+			{0.231000, 0.512000, DH_GetLocalizedData("shadowfen", "cradleofshadowsint_002_base", 1)}, --Khephidaen
+			{0.764000, 0.775000, DH_GetLocalizedData("shadowfen", "cradleofshadowsint_002_base", 2)}, --Sithera
+		},
+		["cradleofshadowsint_003_base"] = {
+			{0.507000, 0.238000, DH_GetLocalizedData("shadowfen", "cradleofshadowsint_003_base", 1)}, --Votary of Velidreth
+			{0.470000, 0.471000, DH_GetLocalizedData("shadowfen", "cradleofshadowsint_003_base", 2)}, --Dranos Velador
+		},
+		["cradleofshadowsint_005_base"] = {
+			{0.460000, 0.508000, DH_GetLocalizedData("shadowfen", "cradleofshadowsint_005_base", 1)}, --Velidreth
 		},
 		
 	},	-- End Shadowfen
@@ -248,8 +297,16 @@ local DHData = {
 		
 		["blackhearthavenarea4_base"] = {
 			{0.685185, 0.564197, DH_GetLocalizedData("bangkorai", "blackhearthavenarea4_base", 1)}, --Captain Blackheart
-		},	
-		
+		},
+				---- Fang Lair ----
+				["fanglairext_base"] = {
+			{0.217000, 0.512000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 1)}, --Lizabet Charnis
+			{0.550000, 0.166000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 2)}, --Cadaverous Menagerie
+			{0.698000, 0.470000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 3)}, --Caluurion
+			{0.549000, 0.455000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 4)}, --QUlfnor	
+			{0.803000, 0.799000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 5)}, --Orryn the Black
+			{0.812000, 0.798000, DH_GetLocalizedData("bangkorai", "fanglairext_base", 6)}, --Thurvokun
+		},
 	},	-- End Bangkorai
 
 
@@ -357,27 +414,35 @@ local DHData = {
 
 		
 	},	-- End Cyrodiil
-	
-	
-	
-	
-							
-							---- Ruins of Mazzatun ----
-							
-							
-							---- Cradle of Shadows ----
-							
-							
 							---- Falkreath Hold ----
-							
+	["craglorn"] = {
+		["falkreathsdemise_base"] = {
+			{0.231000, 0.512000, DH_GetLocalizedData("craglorn", "falkreathsdemise_base", 1)}, --Morrigh Bullblood
+			{0.764000, 0.775000, DH_GetLocalizedData("craglorn", "falkreathsdemise_base", 2)}, --Siege Mammoth
+			{0.764000, 0.775000, DH_GetLocalizedData("craglorn", "falkreathsdemise_base", 3)}, --Cernunnon
+		},
+		["falkreathsdemise_i_base"] = {
+			{0.418000, 0.583000, DH_GetLocalizedData("craglorn", "falkreathsdemise_i_base", 1)}, --Deathlord Bjarfrud Skjoralmor
+		},
+		["falkreathsdemise_b_base"] = {
+			{0.530000, 0.535000, DH_GetLocalizedData("craglorn", "falkreathsdemise_b_base", 1)}, --Domihaus the Bloody-Horned
+		},
 							
 							---- Bloodroot Forge ----
+		["bloodrootint2_base"] = {
+			{0.552000, 0.715000, DH_GetLocalizedData("craglorn", "bloodrootint2_base", 1)}, --Earthgore Amalgam
+			{0.764000, 0.775000, DH_GetLocalizedData("craglorn", "bloodrootint2_base", 2)}, --Gherig Bullblood
+		},
+		["bloodrootext1_base"] = {
+			{0.641000, 0.575000, DH_GetLocalizedData("craglorn", "bloodrootext1_base", 1)}, --Mathgamain
+			{0.409000, 0.270000, DH_GetLocalizedData("craglorn", "bloodrootext1_base", 2)}, --Caillaoife
+		},
+		["bloodrootint1_base"] = {
+			{0.516000, 0.395000, DH_GetLocalizedData("craglorn", "bloodrootint1_base", 1)}, --Stoneheart
+			{0.842000, 0.628000, DH_GetLocalizedData("craglorn", "bloodrootint1_base", 2)}, --Galchobhar
+		},
+	},
 							
-							
-							---- Fang Lair ----
-							
-							
-							---- Scalecaller Peak ----
 							
 							
 							---- March of Sacrifices ----
@@ -390,9 +455,6 @@ local DHData = {
 							
 							
 							---- Frostvault ----
-							
-							
-							---- Lair of Maarselok ----
 							
 							
 							---- Moongrave Fane ----

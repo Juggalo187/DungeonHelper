@@ -51,7 +51,8 @@ local function MapCallback_bosses()
 	local typeof = BOSSES
 	if LMP:IsEnabled(typeof) then
 		local zone, subzone = LMP:GetZoneAndSubzone()
-			if subzone == "ui_map" then
+			--if subzone == "ui_map" then
+				if subzone:find("ui_map") then
 				local mapTexture = GetMapTileTexture():lower()
 				mapTexture = mapTexture:gsub("ui_map_", "")
 				zone, subzone = select(3,mapTexture:find("maps/([%w%-]+)/([%w%-]+_[%w%-]+)"))
@@ -62,6 +63,8 @@ local function MapCallback_bosses()
       				LMP:CreatePin(typeof, pinData, pinData[1], pinData[2])
       			end
       		end
+			CHAT_SYSTEM:AddMessage(zone)
+			CHAT_SYSTEM:AddMessage(subzone)
 	end		
 end
 
@@ -71,7 +74,8 @@ local function MapCallback_others()
 	local typeof = BOSSES_OTHER
 	if LMP:IsEnabled(typeof) then
 		local zone, subzone = LMP:GetZoneAndSubzone()
-			if subzone == "ui_map" then
+			--if subzone == "ui_map" then
+			if subzone:find("ui_map") then
 				local mapTexture = GetMapTileTexture():lower()
 				mapTexture = mapTexture:gsub("ui_map_", "")
 				zone, subzone = select(3,mapTexture:find("maps/([%w%-]+)/([%w%-]+_[%w%-]+)"))
