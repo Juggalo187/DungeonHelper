@@ -5,10 +5,7 @@
 --worldmap filters
 ZO_CreateStringId("DH_FILTER_BOSSES", "|t18:18:esoui/art/icons/poi/poi_groupboss_complete.dds|t Dungeon Bosses I")
 ZO_CreateStringId("DH_FILTER_BOSSES_OTHER", "|t18:18:esoui/art/icons/poi/poi_groupboss_incomplete.dds|t Dungeon Bosses II")
-
-
-
-
+ZO_CreateStringId("DH_FILTER_SECRET", "|t18:18:esoui/art/compass/ava_murderball_neutral.dds|t Secret Boss")
 
 -----------------------------------------------------------------------------------
 
@@ -51,7 +48,23 @@ Mechanics:
 - Do not get hit by the boss's growing circle PBAoE. When you see it charging, GET BACK.
 ]]},
 },
-
+---- Bal Sunnar ----
+["balsunn_b1_map"] = {		
+			{[[Kovan Giryon]], [[
+]]},
+},
+["balsunn_b2_map"] = {		
+			{[[Roksa the Warped]], [[
+]]},
+},
+["balsunn_b3_map"] = {		
+			{[[Matriarch Lladi Telvanni]], [[
+]]},
+},
+["balsunn_pasttown01_map"] = {		
+			{[[Urvel Drath]], [[
+]]},
+},
 
 },	-- End Stonefalls
 
@@ -95,7 +108,17 @@ Mechanics:
 - DPS/healers should spread out behind/beside her so it's easier to see who she is looking at.
 ]]},
 },
-
+---- Red Petal Bastion ----
+["rpb_map_ext001"] = {		
+			{[[Rogerain the Sly]], [[
+]]},
+},
+["rpb_map_int001"] = {		
+			{[[Eliam Merick, Ihudir, and Liramindrel]], [[
+]]},
+			{[[Prior Thierric Sarazen]], [[
+]]},
+},
 
 },	-- End Glenumbra
 
@@ -178,7 +201,79 @@ Last Boss]], [[Hard Mode:
 
 ]]},
 },
-
+						---- The Cauldron ----
+["cauldronmapboss1"] = {
+			{[[Oxblood the Depraved]], [[
+]]},
+			{[[Taskmaster Viccia]], [[
+]]},
+			{[[Molten Guardian]], [[
+]]},
+			{[[Lyranth]], [[
+]]},
+			{[[Baron Zaudrus]], [[
+]]},
+},
+["cauldronmapboss2"] = {
+			{[[Oxblood the Depraved]], [[
+]]},
+			{[[Taskmaster Viccia]], [[
+]]},
+			{[[Molten Guardian]], [[
+]]},
+			{[[Lyranth]], [[
+]]},
+			{[[Baron Zaudrus]], [[
+]]},
+},
+["cauldronmapboss3"] = {
+			{[[Oxblood the Depraved]], [[
+]]},
+			{[[Taskmaster Viccia]], [[
+]]},
+			{[[Molten Guardian]], [[
+]]},
+			{[[Lyranth]], [[
+]]},
+			{[[Baron Zaudrus]], [[
+]]},
+},
+["cauldronmapboss4"] = {
+			{[[Oxblood the Depraved]], [[
+]]},
+			{[[Taskmaster Viccia]], [[
+]]},
+			{[[Molten Guardian]], [[
+]]},
+			{[[Lyranth]], [[
+]]},
+			{[[Baron Zaudrus]], [[
+]]},
+},
+["cauldronmapboss5"] = {
+			{[[Oxblood the Depraved]], [[
+]]},
+			{[[Taskmaster Viccia]], [[
+]]},
+			{[[Molten Guardian]], [[
+]]},
+			{[[Lyranth]], [[
+]]},
+			{[[Baron Zaudrus]], [[
+]]},
+},
+["cauldronmapstart"] = {
+			{[[Oxblood the Depraved]], [[
+]]},
+			{[[Taskmaster Viccia]], [[
+]]},
+			{[[Molten Guardian]], [[
+]]},
+			{[[Lyranth]], [[
+]]},
+			{[[Baron Zaudrus]], [[
+]]},
+},
 
 },	-- End Deshaan
 
@@ -351,8 +446,21 @@ Last Boss]], [[Hard Mode:
 
 ]]},
 },
-
-
+---- March of Sacrifices ----
+["marchodsacrifices_base"] = {
+			{[[Wyress Rangifer
+			Wyress Strigidae
+			Wyress Ursus]], [[
+]]},
+			{[[Aghaedh of the Solstice]], [[
+]]},
+			{[[Dagrund the Bulky]], [[
+]]},
+			{[[Tarcyr]], [[
+]]},
+			{[[Balorgh]], [[
+]]},
+},
 },	-- End Greenshade
 
 
@@ -387,9 +495,25 @@ Last Boss]], [[Hard Mode:
 - Scroll of Glorious Battle.
 ]]},
 },
+-- Shipwright's Regret ----
+["lostshipyard_map001"] = {
+			{[[Foreman Bradiggan]], [[
+]]},
+			{[[Shrouded Axeman]], [[
+]]},
+			{[[Nazaray]], [[
+]]},
+			{[[Storm-Cursed Sailor]], [[
+]]},
+			{[[Captain Numirril]], [[
+]]},
+},
+["rivenyardsecarea1"] = {
+			{[[Lost Maiden]], [[
+]]},
+},		
 
-
-},	-- End Rivenspire
+},-- End Rivenspire
 
 	
 	-- Start Shadowfen
@@ -425,7 +549,8 @@ Last Boss]], [[Hard Mode:
 			{[[Mighty Chudan]], [[
 ]]},
 
-			{[[Xal-Nur the Slaver]], [[
+			{[[Xal-Nur the Slaver]], [[Xal-Nur becomes invulnerable and a "Swamp Spice" pool appears.
+			A player must pick up the spice and drop it into a nearby geyser to make Xal-Nur vulnerable again
 ]]},
 
 			{[[Tree-Minder Na-Kesh
@@ -581,12 +706,14 @@ Last Boss]], [[Hard Mode:
 	["bangkorai"] = {
 
 							---- Volenfell (Part 2) ----
+		["the_guardians_skull"] = {
+			{[[Unstable Construct.]], [[
+]]},
+},
 		["the_guardians"] = {
 			{[[Unstable Construct]], [[
 ]]},
 },
-
-
 							---- Blackheart Haven ----
 		["blackhearthavenarea1_base"] = {
 			{[[Iron-Heel]], [[
@@ -629,7 +756,41 @@ Last Boss]], [[Hard Mode:
 			Last Boss]], [[
 ]]},
 },
-
+---- Unhallowed Grave ----
+		["unhallowedgravemap001"] = {
+			{[[Hakgrym the Howler]], [[
+]]},
+},
+		["unhallowedgravemap001b"] = {
+			{[[Eternal Aegis]], [[
+]]},
+},
+		["unhallowedgravemap001c"] = {
+			{[[Ondagore the Mad]], [[
+]]},
+},
+		["unhallowedgravemap002"] = {
+			{[[Keeper of the Kiln]], [[
+]]},
+},
+		["unhallowedgravemap003"] = {
+			{[[Kjalnar Tombskald]], [[
+]]},
+			{[[Tzirzhalir]], [[
+]]},
+},
+		["unhallowedgravemap004"] = {
+			{[[Nabor the Forgotten]], [[
+]]},
+},
+		["unhallowedgravemap005"] = {
+			{[[Voria's Masterpiece]], [[
+]]},
+},
+		["unhallowedgravesecret2map"] = {
+			{[[Voria the Heart-Thief]], [[
+]]},
+},
 
 
 },	-- End Bangkorai
@@ -666,6 +827,27 @@ Last Boss]], [[Hard Mode:
 ]]},
 },
 
+			---- Scrivener's Hall ----
+["u37_scrivenershall_sect2b_map"] = {
+			{[[Ozezan the Inferno]], [[
+]]},
+},
+["u37_scrivenershall_boss3_map"] = {
+			{[[Lamikhai]], [[
+]]},
+			{[[Valinna]], [[
+]]},
+},
+["u37_scrivenershall_boss3int_ma"] = {
+			{[[Lamikhai]], [[
+]]},
+			{[[Valinna]], [[
+]]},
+},
+["u37_scrivenershall_sect1_map"] = {
+			{[[Riftmaster Naqri]], [[
+]]},
+},
 
 },	-- End The Rift
 
@@ -693,6 +875,30 @@ Last Boss]], [[Hard Mode:
 			{[[Selene
 Last Boss]], [[Hard Mode:
 -Scroll of Glorius Battle.
+]]},
+},
+["seleneswebfinalbossarea_base"] = {
+			{[[Selene
+Last Boss]], [[Hard Mode:
+-Scroll of Glorius Battle.
+]]},
+},
+---- Moon Hunter Keep ----
+		["mhkmoonhunterkeep_base"] = {
+			{[[Jailer Melitus]], [[
+]]},
+},
+		["mhkmoonhunterkeep2_base"] = {
+			{[[Hedge Maze Guardian]], [[
+]]},
+},
+		["mhkmoonhunterkeep3_base"] = {
+			{[[Mylenne Moon-Caller]], [[
+]]},
+			{[[Archivist Ernarde]], [[
+]]},
+			{[[Vykosa the Ascendant
+			Last Boss]], [[
 ]]},
 },
 
@@ -790,13 +996,7 @@ Last Boss]], [[Hard Mode:
 	
 
 },	-- End Cyrodiil
-
-	
-	
-							
-							
-							
-							
+					
 							
 	["craglorn"] = {
 	---- Falkreath Hold ----
@@ -805,7 +1005,7 @@ Last Boss]], [[Hard Mode:
 ]]},
 			{[[Siege Mammoth]], [[
 ]]},
-			{[[Cernunnon]], [[
+			{[[Erbogar, Tuecille, and Cernunnon]], [[
 ]]},
 },	
 ["falkreathsdemise_i_base"] = {
@@ -841,32 +1041,311 @@ Last Boss]], [[Hard Mode:
 },
 	
 },
-							
-							
-							---- Scalecaller Peak ----
-							
-							
-							---- March of Sacrifices ----
-							
-							
-							---- Moon Hunter Keep ----
-							
-							
-							---- Depths of Malatar ----
-							
-							
-							---- Lair of Maarselok ----
-							
-							
-							---- Moongrave Fane ----
-							
-							
-							---- Unhallowed Grave ----
-							
-							
-							---- Icereach ----
+--Gold Coast start
+["darkbrotherhood"] = {
 
-	
+							---- Black Drake Villa ----
+		["bdvillamap1ext1"] = {
+			{[[Kinras Ironeye]], [[
+]]},
+},
+		["bdvilla_map3int1"] = {
+			{[[Captain Geminus]], [[
+]]},
+},
+		["bdvilla_boss3map"] = {
+			{[[Pyroturge Encratis]], [[
+]]},
+			{[[Sentinel Aksalaz]], [[
+]]},
+},
+		["bdvilla_map2ext2"] = {
+			{[[Pyroturge Encratis]], [[
+]]},
+},
+		["bdvilla_mapsecret3"] = {
+			{[[Avatar of Fortitude]], [[
+]]},
+},
+		["bdvilla_mapsecret2"] = {
+			{[[Avatar of Vigor]], [[
+]]},
+},
+		["bdvilla_mapsecret1"] = {
+			{[[Avatar of Zeal]], [[
+]]},
+},
+---- Depths of Malatar ----
+		["domdepthsofmal_base"] = {
+			{[[The Scavenging Maw]], [[
+]]},
+},
+			["domdepthsofmal2_base"] = {
+			{[[The Weeping Woman]], [[
+]]},
+},
+				["domdepthsofmal3_base"] = {
+			{[[Dark Orb]], [[
+]]},
+			{[[King Narilmor]], [[
+]]},
+			{[[Symphony of Blades]], [[
+]]},
+},
+
+},
+--Gold Coast End
+
+	["southernelsweyr"] = {
+
+							---- Moongrave Fane ----
+		["moongravesection1_base"] = {
+			{[[Risen Ruins]], [[
+]]},
+},
+		["moongravesection2_base"] = {
+			{[[Dro'zakar]], [[
+]]},
+},
+		["moongravesection3_base"] = {
+			{[[Kujo Kethba]], [[
+]]},
+},
+		["moongravesection4_base"] = {
+			{[[Nisaazda & Grundwulf]], [[
+]]},
+			{[[Grundwulf]], [[
+]]},
+},
+},	
+
+	["wrothgar"] = {
+
+							---- Icereach ----
+		["icereachpart1"] = {
+			{[[Kjarg the Tuskscraper]], [[
+]]},
+},
+		["icereachpart2"] = {
+			{[[Sister Skelga]], [[
+]]},
+			{[[Vearogh the Shambler]], [[
+]]},
+			{[[Stormborn Revenant]], [[
+]]},
+			{[[Mother Ciannait]], [[
+]]},
+},
+					---- Bedlam Veil ----
+		["u41_bv_sc1_map"] = {
+			{[[Shattered Champion]], [[
+]]},
+},
+		["u41_bv_sc2_map"] = {
+			{[[Darkshard]], [[
+]]},
+},
+		["u41_bv_sc3_map"] = {
+			{[[The Blind]], [[
+]]},
+},
+
+},
+
+		["skyrim"] = {
+
+							---- Castle Thorn ----
+		["castlethornmap_001"] = {
+			{[[Dread Tindulra]], [[
+]]},
+			{[[Vaduroth]], [[
+]]},
+			{[[Talfyg]], [[
+]]},
+},
+		["castlethorn_int_01"] = {
+			{[[Blood Twilight]], [[
+]]},
+},
+		["castlethorn_int_03"] = {
+			{[[Lady Thorn]], [[
+]]},
+},
+							---- Stone Garden ----
+		["stonegarden01_base"] = {
+			{[[Exarch Kraglen]], [[
+]]},
+},
+		["stonegarden02b_base"] = {
+			{[[Stone Behemoth]], [[
+]]},
+},
+		["stonegarden03b_base"] = {
+			{[[Arkasis the Mad Alchemist]], [[
+]]},
+},
+
+
+},
+
+["blackwood"] = {
+
+							---- The Dread Cellar ----
+		["tdc_map_outside_001"] = {
+			{[[Scorion Broodlord]], [[
+]]},
+},
+		["tdc_map_inside_001"] = {
+			{[[Cyronin Artellian]], [[
+]]},
+			{[[Magma Incarnate]], [[
+]]},
+},
+},
+
+["summerset"] = {
+
+							---- Coral Aerie ----
+		["coralaerie_b1_001"] = {
+			{[[Maligalig]], [[
+]]},
+},
+		["coralaerie_b2_001"] = {
+			{[[Sarydil]], [[
+]]},
+},
+		["coralaerieb3_001"] = {
+			{[[Varallion]], [[
+]]},
+},
+		["coralaeriesecretmap001"] = {
+			{[[Shield Guardian]], [[
+]]},
+			{[[Staff Guardian]], [[
+]]},
+			{[[Sword Guardian]], [[
+]]},
+},
+},
+--High Isle
+["systres"] = {
+
+							---- Earthen Root Enclave ----
+		["ere_outsidemap01"] = {
+			{[[Corruption of Stone]], [[
+]]},
+			{[[Scalded Roots]], [[
+]]},
+},
+		["ere_insidemap01"] = {
+			{[[Corruption of Root]], [[
+]]},
+			{[[Lutea]], [[
+]]},
+},
+		["ere_outsidemap02"] = {
+			{[[Jodoro]], [[
+]]},
+			{[[Archdruid Devyric]], [[
+]]},
+},
+---- Graven Deep ----
+		["gravendeep_island_map"] = {
+			{[[The Euphotic Gatekeeper]], [[
+]]},
+},
+		["gravendeep_section2_map"] = {
+			{[[Varzunon]], [[
+]]},
+			{[[Xzyviian, Defense Crawler]], [[
+]]},
+},
+		["gravendeep_section3_map"] = {
+			{[[Chralzak, Sphere 9402-A]], [[
+]]},
+			{[[Zelvraak the Unbreathing]], [[
+]]},
+},
+		["gravendeep_secret1_map"] = {
+			{[[Mzugru, Security Drone]], [[
+]]},
+},
+
+},
+--The Reach
+["reach"] = {
+
+---- Oathsworn Pit ----
+		["u41_osp_map_starterarea"] = {
+			{[[Packmaster Rethelros]], [[
+]]},
+},
+		["u41_osp_map_section2"] = {
+			{[[Anthelmir]], [[
+]]},
+},
+		["u41_osp_map_section3"] = {
+			{[[Aradros the Awakened]], [[
+]]},
+},
+		["u41_osp_map_secret1bottom"] = {
+			{[[Sluthrug the Bloodied]], [[
+]]},
+},
+		["u41_osp_map_secret2"] = {
+			{[[Bolg of Wicked Barbs]], [[
+]]},
+},
+		["u41_osp_map_secret3"] = {
+			{[[Grubduthag Many-Fates]], [[
+]]},
+},
+
+},
+
+--West Weald
+["westweald"] = {
+
+---- Exiled Redoubt ----
+		["u45_exiledredoubtmap001"] = {
+			{[[Executioner Jerensi]], [[
+]]},
+			{[[Prime Sorcerer Vandorallen]], [[
+]]},
+			{[[Squall of Retribution]], [[
+]]},
+			{[[Guard Captain Paratius]], [[
+]]},
+			{[[Docent Domitius]], [[
+]]},
+			{[[Eliana Albus]], [[
+]]},
+},
+
+},
+
+--Hew's Bane
+["thievesguild"] = {
+
+---- Lep Seclusa ----
+		["u45_lepseclusa_map01"] = {
+			{[[Lewin Frey]], [[
+]]},
+			{[[Garvin the Tracker]], [[
+]]},
+},
+		["u45_lepseclusa_map02"] = {
+			{[[Siege Master Malthoras]], [[
+]]},
+			{[[Noriwen]], [[
+]]},
+			{[[Flamedancer Ajim-Rei]], [[
+]]},
+			{[[Orpheon the Tactician]], [[
+]]},
+},
+
+},
 
 
 } 	-- End Normal/DLC Dungons
@@ -1187,13 +1666,48 @@ Last Boss]], [[Hard Mode:
 - They die fairly easily, so have tank kite them away from the boss.
 ]]},
 },
-
 },
 
 
 
 }	-- End Version II Dungeons
 
+local DHLocalizedDataSecret = {
+--bangkorai
+["bangkorai"] = {
+
+							---- Unhallowed Grave ----
+		["unhallowedgravemap001"] = {
+			{[[Nabor the Forgotten - Secret Boss]], [[Deathly Fissure
+]]},
+},
+		["unhallowedgravemap001b"] = {
+			{[[Voria the Heart-Thief - Secret Boss]], [[Grappling Hook
+]]},
+},
+		["unhallowedgravemap001c"] = {
+			{[[Voria's Masterpiece - Secret Boss]], [[Voria Sanctum - To reach Voria's Masterpiece you need to unlock a secret door after defeating two other bosses.
+		First, defeat Nabor the Forgotten and then Voria, who each give you a buff. 
+		After defeating these two, you can then unlock the secret door and enter Voria's Sanctum.
+]]},
+},
+
+
+},
+--rivenspire
+["rivenspire"] = {
+
+							---- Shipwright's Regret ----
+		["lostshipyard_map001"] = {
+			{[[Lost Maiden - Secret Boss]], [[Frigid Cavern (Door)
+]]},
+			{[[Shrouded Axeman - Secret Boss ]], [[Jump into Water and find the Misty Tunnel(Door)
+]]},
+},
+
+},
+
+}
 
 function DH_GetLocalizedData(zone, subzone, bossId)
 	if type(zone) == "string" and type(subzone) == "string" and type(bossId) == "number" and DHLocalizedData[zone] and DHLocalizedData[zone][subzone] and DHLocalizedData[zone][subzone][bossId] then
@@ -1204,5 +1718,11 @@ end
 function DH_GetLocalizedDataOther (zone, subzone, bossId)
 	if type(zone) == "string" and type(subzone) == "string" and type(bossId) == "number" and DHLocalizedDataOther[zone] and DHLocalizedDataOther[zone][subzone] and DHLocalizedDataOther[zone][subzone][bossId] then
 		return DHLocalizedDataOther[zone][subzone][bossId][1], DHLocalizedDataOther[zone][subzone][bossId][2]
+	end	
+end
+
+function DH_GetLocalizedDataSecret (zone, subzone, bossId)
+	if type(zone) == "string" and type(subzone) == "string" and type(bossId) == "number" and DHLocalizedDataSecret[zone] and DHLocalizedDataSecret[zone][subzone] and DHLocalizedDataSecret[zone][subzone][bossId] then
+		return DHLocalizedDataSecret[zone][subzone][bossId][1], DHLocalizedDataSecret[zone][subzone][bossId][2]
 	end	
 end
