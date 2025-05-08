@@ -131,6 +131,9 @@ local function MapCallback_secret()
 			end
 end
 
+local function OnPlayerLoad()
+--EVENT_MANAGER:RegisterForEvent("DungeonHelper", EVENT_BOSSES_CHANGED, OnBossChanged)
+end
 
 -- Load Addon
 local function OnLoad(_, name)
@@ -140,9 +143,9 @@ local function OnLoad(_, name)
 	savedVariables = ZO_SavedVars:New("DH_SavedVars" , 1, nil, defaults)
 	
 	local pins = {
-		[BOSSES] = {level = 120, texture = "/esoui/art/icons/poi/poi_groupboss_complete.dds", size = 38},
-		[BOSSES_OTHER] = {level = 110, texture = "/esoui/art/icons/poi/poi_groupboss_incomplete.dds", size = 38},
-		[SECRET] = {level = 110, texture = "/esoui/art/compass/ava_murderball_neutral.dds", size = 22},
+		[BOSSES] = {level = 120, texture = "/esoui/art/icons/poi/poi_groupboss_complete.dds", size = 35},
+		[BOSSES_OTHER] = {level = 110, texture = "/esoui/art/icons/poi/poi_groupboss_incomplete.dds", size = 35},
+		[SECRET] = {level = 110, texture = "/esoui/art/compass/ava_murderball_neutral.dds", size = 25},
 		
 	}
 	
@@ -155,6 +158,7 @@ local function OnLoad(_, name)
 	LMP:AddPinFilter(BOSSES, GetString(DH_FILTER_BOSSES), nil, savedVariables.showBosses)
 	LMP:AddPinFilter(BOSSES_OTHER, GetString(DH_FILTER_BOSSES_OTHER), nil, savedVariables.showBosses)
 	LMP:AddPinFilter(SECRET, GetString(DH_FILTER_SECRET), nil, savedVariables.showSecret)
+	--EVENT_MANAGER:RegisterForEvent("DungeonHelper", EVENT_PLAYER_ACTIVATED, OnPlayerLoad)
 
 end
 

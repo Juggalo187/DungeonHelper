@@ -1168,7 +1168,8 @@ Last Boss]], [[Hard Mode:
 ]]},
 },
 		["castlethorn_int_03"] = {
-			{[[Lady Thorn]], [[
+			{[[Lady Thorn
+			Last Boss]], [[
 ]]},
 },
 							---- Stone Garden ----
@@ -1341,7 +1342,8 @@ Last Boss]], [[Hard Mode:
 ]]},
 			{[[Flamedancer Ajim-Rei]], [[
 ]]},
-			{[[Orpheon the Tactician]], [[
+			{[[Orpheon the Tactician
+			Last Boss]], [[
 ]]},
 },
 
